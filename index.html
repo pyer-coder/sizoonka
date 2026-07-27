@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizoonka | Premier TCG Consignment & Sales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <!-- Save your Ninetales logo as logo.png in the same folder -->
+            <img src="logo.png" alt="Sizoonka Logo" class="logo">
+            <h1>Sizoonka</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inventory">Inventory</a></li>
+            <li><a href="#consign">Consign</a></li>
+            <li><a href="#sell">Sell to Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Your Hub for Premium Trading Cards</h2>
+            <p>Buy, sell, and consign high-end Pokémon and Magic: The Gathering cards with transparent logistics.</p>
+            <a href="#inventory" class="cta-button">Browse Inventory</a>
+        </div>
+    </header>
+
+    <!-- Inventory Section -->
+    <section id="inventory" class="section">
+        <h2>Featured Inventory</h2>
+        <div class="grid">
+            <!-- Sample Card 1 -->
+            <div class="card">
+                <div class="card-image placeholder-pokemon"></div>
+                <h3>Charizard Base Set</h3>
+                <p>PSA 9 - Mint</p>
+                <span class="price">$1,200</span>
+            </div>
+            <!-- Sample Card 2 -->
+            <div class="card">
+                <div class="card-image placeholder-mtg"></div>
+                <h3>Black Lotus</h3>
+                <p>Unlimited - Played</p>
+                <span class="price">$15,000</span>
+            </div>
+            <!-- Sample Card 3 -->
+            <div class="card">
+                <div class="card-image placeholder-pokemon"></div>
+                <h3>Ninetales Base Set</h3>
+                <p>CGC 9.5 - Gem Mint</p>
+                <span class="price">$450</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consign Section -->
+    <section id="consign" class="section bg-darker">
+        <h2>Consign With Us</h2>
+        <div class="content-box">
+            <p>Maximize your return with our streamlined consignment process. We handle the logistics, listing, and automated payouts.</p>
+            <ul>
+                <li>Competitive rates accurately calculated from real-time market value.</li>
+                <li>Detailed legal consignment contracts provided for your protection.</li>
+                <li>Seamless inventory tracking directly to your payout distribution.</li>
+            </ul>
+            <a href="mailto:consign@sizoonka.com" class="cta-button outline">Review Consignment Contract</a>
+        </div>
+    </section>
+
+    <!-- Sell Section -->
+    <section id="sell" class="section">
+        <h2>Sell Your Collection</h2>
+        <div class="content-box">
+            <p>Looking for quick liquidity? We offer competitive cash or trade-in value for Pokémon and MTG collections.</p>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submitted!');">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Describe your collection (e.g., sets, conditions, notable cards)" rows="4" required></textarea>
+                <button type="submit" class="cta-button">Submit for Appraisal</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sizoonka. All rights reserved.</p>
+        <div class="socials">
+            <a href="https://instagram.com/sizoonka" target="_blank">Follow on Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
